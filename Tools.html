@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Tools - IWB</title>
+    <style>
+        body {
+            background: url('mm1.jpg') no-repeat center center/cover;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+            background: #444;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px;
+        }
+        nav ul li a:hover {
+            background: #ff6600;
+            border-radius: 5px;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+            background: white;
+            margin: 20px auto;
+            width: 80%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        .tools-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .tool-box {
+            background: #f4f4f4;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: left;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .tool-title {
+            font-weight: bold;
+            font-size: 20px;
+            color: #ff6600;
+        }
+        .tool-description {
+            font-size: 16px;
+            color: #555;
+        }
+        .pricing {
+            margin-top: 10px;
+            font-size: 14px;
+            font-weight: bold;
+            color: #333;
+        }
+        .subscribe-link {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 15px;
+            background: #ff6600;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        .subscribe-link:hover {
+            background: #cc5500;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Our Software Tools</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="stakeholders.html">Stakeholders</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="content">
+        <h2>Explore Our 4 New Software Tools</h2>
+        <div class="tools-container">
+            <div class="tool-box">
+                <span class="tool-title">🔒 Data Guardian</span>  
+                <p class="tool-description">A powerful tool designed for secure data backup, ensuring your critical files are protected against accidental loss or system failures.</p>
+                <p class="pricing">💰 Monthly: $9.99 | Annually: $99.99</p>
+                <a href="subscribe.html?tool=DataGuardian" class="subscribe-link">Subscribe</a>
+            </div>
+            <div class="tool-box">
+                <span class="tool-title">💾 Recovery Master</span>  
+                <p class="tool-description">Quick and efficient data recovery software that helps restore deleted files from hard drives, USBs, and other storage devices.</p>
+                <p class="pricing">💰 Monthly: $14.99 | Annually: $149.99</p>
+                <a href="subscribe.html?tool=RecoveryMaster" class="subscribe-link">Subscribe</a>
+            </div>
+            <div class="tool-box">
+                <span class="tool-title">🛡️ WipeSecure</span>  
+                <p class="tool-description">A high-level security tool that permanently erases sensitive data, making it unrecoverable by any forensic software.</p>
+                <p class="pricing">💰 Monthly: $19.99 | Annually: $199.99</p>
+                <a href="subscribe.html?tool=WipeSecure" class="subscribe-link">Subscribe</a>
+            </div>
+            <div class="tool-box">
+                <span class="tool-title">🔧 DriveRescue</span>  
+                <p class="tool-description">Advanced hard drive restoration software that repairs corrupted drives and retrieves lost partitions.</p>
+                <p class="pricing">💰 Monthly: $24.99 | Annually: $249.99</p>
+                <a href="subscribe.html?tool=DriveRescue" class="subscribe-link">Subscribe</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 IWB. All rights reserved.</p>
+    </footer>
+</body>
+</html>
